@@ -1,5 +1,5 @@
 body {
-    background-image: url("../assets/misc/papyrus.png")
+    background-image: url("../assets/misc/papyrus.png");
 }
 
 .jumbotron {
@@ -140,4 +140,14 @@ body {
 .timeline .right:before {
     border-color: transparent black transparent transparent;
     left: 6px;
+}
+
+.navbar .navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
